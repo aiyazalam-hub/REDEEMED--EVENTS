@@ -83,3 +83,73 @@ var splide = new Splide("#splide1", {
 });
 
 splide.mount();
+// splide2
+var splide = new Splide("#splide2", {
+  type: "loop",
+  perPage: 3,
+  focus: "center",
+  breakpoints: {
+    1100: {
+      perPage: 2,
+      gap: ".7rem",
+    },
+    769: {
+      perPage: 1,
+      gap: ".7rem",
+    },
+  },
+});
+
+splide.mount();
+// splide4
+var splide = new Splide("#splide3", {
+  type: "loop",
+  drag: "free",
+  snap: true,
+  perPage: 4,
+  breakpoints: {
+    1100: {
+      perPage: 3,
+      gap: ".7rem",
+    },
+    800: {
+      perPage: 2,
+      gap: ".7rem",
+    },
+    600: {
+      perPage: 1,
+      gap: ".7rem",
+    },
+  },
+});
+
+splide.mount();
+
+// splide4
+var splide = new Splide("#splide4", {
+  perPage: 3,
+  rewind: true,
+  breakpoints: {
+    998: {
+      perPage: 2,
+      gap: ".7rem",
+    },
+    700: {
+      perPage: 1,
+      gap: ".7rem",
+    },
+  },
+});
+
+splide.mount();
+
+var addButton = document.querySelector(".js-add-button");
+var removeButton = document.querySelector(".js-remove-button");
+
+addButton.addEventListener("click", function () {
+  splide.add('<li class="splide__slide">' + (splide.length + 1) + "</li>");
+});
+
+removeButton.addEventListener("click", function () {
+  splide.remove(splide.length - 1);
+});

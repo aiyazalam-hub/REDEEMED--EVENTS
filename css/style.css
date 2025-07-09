@@ -192,10 +192,10 @@ ul a:hover {
 .phn-btn > a:hover {
   color: white;
 }
-.nav-right>ul>li>a{
+.nav-right > ul > li > a {
   color: white;
 }
-.nav-btn{
+.nav-btn {
   padding: 9px 19px 11px 19px;
   font-size: 16px;
   color: white;
@@ -209,62 +209,69 @@ ul a:hover {
   transition: all 0.4s ease;
   text-wrap: nowrap;
 }
-
-.nav-btn > a:hover {
+.nav-right > ul > li > a:hover {
+  color: red;
+  font-size: 18px;
+}
+.dropdown-menu > a:hover,
+.dropdown-toggle:hover {
+  color: #ef4444;
+}
+.nav-btn:hover {
   background-position: right bottom;
 }
- .dropdown {
-      position: relative;
-      display: inline-block;
-    }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-    .dropdown-toggle {
-      color: white;
-      font-size: 18px;
-      cursor: pointer;
-    }
+.dropdown-toggle {
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
 
-    .dropdown-toggle::after {
-      content: "▾";
-      margin-left: 5px;
-      font-size: 12px;
-    }
+.dropdown-toggle::after {
+  content: "▾";
+  margin-left: 5px;
+  font-size: 12px;
+}
 
-    .dropdown-menu {
-      display: none;
-      position: absolute;
-      top: 25px;
-      left: 0;
-      background-color: rgba(33, 33, 33, 0.95);
-      border-radius: 8px;
-      padding: 10px 0;
-      min-width: 140px;
-      z-index: 1000;
-    }
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: rgba(33, 33, 33, 0.95);
+  border-radius: 8px;
+  padding: 10px 0;
+  min-width: 140px;
+  z-index: 1000;
+}
 
-    .dropdown-menu a {
-      display: block;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-    }
+.dropdown-menu a {
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
 
-    .dropdown-menu a:hover {
-      background-color: rgba(255, 255, 255, 0.1);
-    }
-.fa-solid{
+.dropdown-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.fa-solid {
   font-size: 2rem;
 }
-    .dropdown:hover .dropdown-menu {
-      display: block;
-    }
-    .icon-s{
-      display: flex;
-      gap: 21px;
-      align-items: center;
-    }
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.icon-s {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
 /* ...1-Hero-section...... */
-.hero-section{
+.hero-section {
   padding-bottom: 50px;
 }
 .banner-img > img {
@@ -468,57 +475,57 @@ ul a:hover {
 /* ...4-Fees-contracts-section-end... */
 
 /* ...5-Mail-section...... */
-.mail-section{
+.mail-section {
   background-color: #131313;
 }
-.mail-img>img{
+.mail-img > img {
   margin-top: 30px;
   max-width: 100%;
   height: 100%;
   object-fit: contain;
 }
-.main-title1{
+.main-title1 {
   text-align: start;
 }
- .email-container {
-      display: flex;
-      margin: auto;
-      width: 330px;
-      height: 45px;
-      border: 2px solid #fff;
-      border-radius: 5px;
-      overflow: hidden;
-    }
+.email-container {
+  display: flex;
+  margin: auto;
+  width: 330px;
+  height: 45px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
-    .email-container input {
-      flex: 1;
-      border: none;
-      outline: none;
-      padding: 0 15px;
-      font-size: 16px;
-      background-color: #1a1a1a;
-      color: #fff;
-    }
+.email-container input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  font-size: 16px;
+  background-color: #1a1a1a;
+  color: #fff;
+}
 
-    .email-container button {
-      background-color: #b3413e;
-      border: none;
-      color: white;
-      padding: 0 20px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
+.email-container button {
+  background-color: #b3413e;
+  border: none;
+  color: white;
+  padding: 0 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
-    .email-container button:hover {
-      background-color: #922e2b;
-    }
-    .mail-test{
-      text-align: center;
-    }
-    .mail-img{
-      text-align: center;
-    }
+.email-container button:hover {
+  background-color: #922e2b;
+}
+.mail-test {
+  text-align: center;
+}
+.mail-img {
+  text-align: center;
+}
 /* ...5-Mail-section-end... */
 
 /* ...6-Footer-section...... */
@@ -573,6 +580,11 @@ footer {
   text-align: center;
   color: white;
 }
+.footer-ull > ul > li > a:hover {
+  color: red;
+  text-decoration: underline;
+  text-shadow: #fbbf24;
+}
 /* ...6-Footer-section-end... */
 
 /*1 >===INDEX.HTML-END===< */
@@ -582,6 +594,61 @@ footer {
 /*2 >===EVENT.HTML-START===< */
 
 /* ...Home-section...... */
+.event-page {
+  padding-top: 115px;
+  margin-top: 50px;
+  background-color: #141414;
+  padding-bottom: 80px;
+}
+.event-banner > img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.main-event {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-title-star {
+  text-align: start;
+}
+.event-p1 {
+  color: white;
+  font-size: 18px;
+  margin-block: 24px 39px;
+}
+.search-container {
+  display: flex;
+  max-width: 600px;
+  background-color: #121212;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 12px 20px;
+  border: none;
+  background-color: #c04a44; /* red tone */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #a33a36;
+}
 /* ...home-section-end... */
 
 /* ...1-Category-of-event-section...... */
@@ -591,12 +658,81 @@ footer {
 /* ...2-Featured-event-section-end... */
 
 /* ...3-Trending-event-section...... */
+.splide2{
+  margin: auto;
+  max-width: 360px;
+  min-height:195px ;
+}
+.splide21>img{
+  max-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.splide-p1{
+  margin-top:12px ;
+  font-size:14px ;
+  color: white;
+}
+.splide-p2{
+  margin-top:9px ;
+  font-size:18px ;
+  color: white;
+}
+.splide-p3{
+  margin-top:9px ;
+  margin-bottom: 16px;
+  font-size:16px ;
+  color: white;
+}
+.learn-more{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ 
+  margin-bottom: 96px;
+}
 /* ...3-Trending-event-section-end... */
 
 /* ...4-Featured-artist-section...... */
+.artist{
+  background-color: #141414;
+}
+.splide3{
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 262px;
+  min-width: 262px;
+  
+}
+.splide3-img>img{
+max-width: 100%;
+height: 100%;
+object-fit: contain;
+border-radius: 10px;
+}
+.splide3-test>h5{
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.splide3-test>p{
+  color: white;
+  font-size: 14px;
+  margin-top: 5px;
+}
 /* ...4-Featured-artist-section-end... */
 
 /* ...5-Our-event-section...... */
+.col-33{
+  width: 33.33%;
+  padding: 0 15px;
+}
+
+.our-event2{
+    display: none;
+  }
 /* ...5-Our-event-section-end... */
 
 /*2 >===EVENT.HTML-END===< */
@@ -670,12 +806,29 @@ footer {
     margin-bottom: 50px;
   }
 }
+
+/* event page */
+.main-event {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column-reverse;
+}
 /* :::--992--::: */
 @media screen and (max-width: 992px) {
   /*1 >===INDEX.HTML-start===< */
   /*1 >===INDEX.HTML-END===< */
 
   /*2 >===EVENT.HTML-START===< */
+  .our-event{
+    display: none;
+  }
+  .our-event2{
+    display: block;
+  }
   /*2 >===EVENT.HTML-END===< */
 
   /*3 >===CONTACT.HTML-START===< */
@@ -766,6 +919,27 @@ footer {
   .footer-ull {
     text-align: center;
   }
+  .email-container {
+    width: 285px;
+    height: 45px;
+  }
+  .search-container {
+    display: flex;
+    max-width: 300px;
+  }
+  .search-button {
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+  .email-container button {
+    padding: 0 1px;
+    font-size: 14px;
+  }
+  .event-page {
+    margin-top: 50px;
+    background-color: #141414;
+    padding-bottom: 40px;
+}
   /*1 >===INDEX.HTML-END===< */
 
   /*2 >===EVENT.HTML-START===< */

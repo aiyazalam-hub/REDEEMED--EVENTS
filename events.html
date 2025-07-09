@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event-Page</title>
+    <!-- __:CSS-LINK:__ -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- :::FONT-AWSOME::: -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- __:AOS-LINK:__ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- splider -->
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- --Header-- -->
+
+    <!-- HEADER-SECTION -->
+    <header>
+      <div class="hdr-top">
+        <p>Save 10% Off event ticket</p>
+      </div>
+      <div class="container">
+        <nav class="nav-bar">
+          <div class="nav-wrpr">
+            <div data-aos="zoom-in" data-aos-duration="2000" class="nav-logo">
+              <a href="">
+                <img src="./asset/Logo.png" alt="" />
+              </a>
+            </div>
+            <button class="toggler">
+              <div class="hamburger">
+                <i style="color: goldenrod" class="fa-solid fa-bars"></i>
+              </div>
+            </button>
+            <div class="nav-right">
+              <ul>
+                <li>
+                  <a href=".//events.html" class="links active cmn-hover"
+                    >Event</a
+                  >
+                </li>
+                <div class="dropdown">
+                  <div class="dropdown-toggle">Resources</div>
+                  <div class="dropdown-menu">
+                    <a href=".//resources-about.html">About us</a>
+                    <a href=".//resources-price.html">Fees</a>
+                    <a href=".//resources-help-video.html">Help videos</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <div class="dropdown-toggle">Log In</div>
+                  <div class="dropdown-menu">
+                    <a href=".//contact.html">Contact</a>
+                  </div>
+                </div>
+                <div class="icon-s">
+                  <div><img src="./asset/search.png" alt="" /></div>
+                  <div><img src="./asset/line.png" alt="" /></div>
+                  <div><img src="./asset/cart.png" alt="" /></div>
+                </div>
+              </ul>
+              <div class="nav-btn">
+                <a href="">Create your event</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="mobview">
+      <button class="clsbtn">&times;</button>
+      <div class="phn-wrpr">
+        <ul>
+          <li><a href=".//index.html" class="cmn-hover">Home</a></li>
+          <li><a href=".//events.html" class="cmn-hover">Event</a></li>
+          <br />
+          <div class="dropdown">
+            <div class="dropdown-toggle">Resources</div>
+            <div class="dropdown-menu">
+              <a href=".//resources-about.html">About us</a>
+              <a href=".//resources-price.html">Fees</a>
+              <a href=".//resources-help-video.html">Help videos</a>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div class="dropdown">
+            <div class="dropdown-toggle">Log In</div>
+            <div class="dropdown-menu">
+              <a href=".//contact.html">Contact</a>
+            </div>
+          </div>
+          <br />
+          <li><a href=".//blog.html" class="cmn-hover">Blog</a></li>
+          <li><a href=".//review.html" class="cmn-hover">Review</a></li>
+          <li><a href=".//faq.html" class="cmn-hover">Faq</a></li>
+        </ul>
+        <hr style="color: white; margin-inline: 50px 50px" />
+        <div>
+          <a href="">Log Out</a>
+          <i
+            style="color: yellow; font-size: 16px; margin-left: 10px"
+            class="fa-solid fa-right-from-bracket"
+          ></i>
+        </div>
+      </div>
+    </div>
+    <!-- Hero-section -->
+    <section class="event-page">
+      <div class="container">
+        <div class="main-event">
+          <div>
+            <div class="main-title main-title-star">
+              <div class="main-title-h3">
+                <h3 data-aos="fade-up" data-aos-duration="3000">
+                  Featured
+                  <span> events</span>
+                </h3>
+              </div>
+              <div class="span-line">
+                <span></span>
+                <span class="red-span"></span>
+                <span></span>
+              </div>
+            </div>
+            <div
+              class="event-p1"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-center"
+            >
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+            <div
+              class="search-container"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-center"
+            >
+              <input
+                type="text"
+                placeholder="Search event..."
+                class="search-input"
+              />
+              <button class="search-button">Search now</button>
+            </div>
+          </div>
+          <div class="event-banner" data-aos="flip-up">
+            <img src="./asset/event-banner.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---category-event -->
+    <section class="event1">
+      <div class="container">
+        <div class="main-title">
+          <div class="main-title-h3">
+            <h3 data-aos="fade-up" data-aos-duration="3000">
+              Category of
+              <span> events</span>
+            </h3>
+          </div>
+          <div class="span-line">
+            <span></span>
+            <span class="red-span"></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- :splider: -->
+        <div id="splide1" class="splide" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="splide-card">
+                  <div
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                  >
+                    <img src="./asset/confe.png" alt="" />
+                  </div>
+                  <br />
+                  <h5
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                  >
+                    Conference
+                  </h5>
+                  <br />
+                  <div
+                    class="span-line"
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                  >
+                    <span class="red-span"></span>
+                  </div>
+                  <br />
+                  <p>
+                    Lorem Ipsum is simply dummy text of the <br />
+                    printing and typesetting industry. Lorem <br />
+                    Ipsum has been the indust
+                  </p>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide-card">
+                  <div
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                  >
+                    <img src="./asset/music.png" alt="" />
+                  </div>
+                  <br />
+                  <h5
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                  >
+                    Music
+                  </h5>
+                  <br />
+                  <div
+                    class="span-line"
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                  >
+                    <span class="red-span"></span>
+                  </div>
+                  <br />
+                  <p>
+                    Lorem Ipsum is simply dummy text of the <br />
+                    printing and typesetting industry. Lorem <br />
+                    Ipsum has been the indust
+                  </p>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide-card">
+                  <div
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                  >
+                    <img src="./asset/comm.png" alt="" />
+                  </div>
+                  <br />
+                  <h5
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                  >
+                    Community
+                  </h5>
+                  <br />
+                  <div
+                    class="span-line"
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                  >
+                    <span class="red-span"></span>
+                  </div>
+                  <br />
+                  <p>
+                    Lorem Ipsum is simply dummy text of the <br />
+                    printing and typesetting industry. Lorem <br />
+                    Ipsum has been the indust
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- :Featured-event-section -->
+    <section class="featured-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-50">
+            <div class="featured-img aato" data-aos="zoom-in-down">
+              <img src="./asset/featured img.png" alt="" />
+            </div>
+          </div>
+          <div class="col-50">
+            <div class="aato">
+              <div class="main-title main-title-start">
+                <div class="main-title-h3">
+                  <h3 data-aos="fade-up" data-aos-duration="3000">
+                    Featured
+                    <span> events</span>
+                  </h3>
+                </div>
+                <div class="span-line">
+                  <span></span>
+                  <span class="red-span"></span>
+                  <span></span>
+                </div>
+              </div>
+              <div>
+                <p style="color: white">
+                  Lorem Ipsum is simply dummy text of the printing and <br />
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  <br />
+                  standard dummy text ever since the 1500s, when an unknown
+                  <br />
+                  printer took a galley of type and scrambled it to make a type
+                  <br />
+                  specimen book. 
+                </p>
+              </div>
+              <div class="timer-container aato">
+                <div class="timer-box days">
+                  <div style="color: black" class="timer-value" id="days">
+                    00
+                  </div>
+                  <div class="label">Days</div>
+                </div>
+                <div class="timer-box hours">
+                  <div class="timer-value" id="hours">00</div>
+                  <div class="label">Hours</div>
+                </div>
+                <div class="timer-box minutes">
+                  <div class="timer-value" id="minutes">00</div>
+                  <div class="label">Minutes</div>
+                </div>
+                <div class="timer-box seconds">
+                  <div class="timer-value" id="seconds">00</div>
+                  <div class="label">Seconds</div>
+                </div>
+              </div>
+              <div>
+                <div class="nav-btn event-btn">
+                  <div><a href="#">Create your event</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---category-event -->
+    <section class="event1">
+      <div class="container">
+        <div class="main-title">
+          <div class="main-title-h3">
+            <h3 data-aos="fade-up" data-aos-duration="3000">
+              Trending
+              <span> events</span>
+            </h3>
+          </div>
+          <div class="span-line">
+            <span></span>
+            <span class="red-span"></span>
+            <span></span>
+          </div>
+          <div>
+            <p style="color: white; margin-block: 17px 38px">
+              Take a peek at some amazing events using Ticket Redeemed
+            </p>
+          </div>
+        </div>
+        <!-- :splider: -->
+        <div id="splide2" class="splide" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="splide2" data-aos="flip-left">
+                  <div class="splide21">
+                    <img src="./asset/1event.png" alt="" />
+                  </div>
+                  <div class="splide2-test">
+                    <p class="splide-p1">may 05, 2023</p>
+                    <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                    <p class="splide-p3">
+                      Duis dui nibh, gravida sit amet dolor eget, <br />
+                      eleifend iaculis sem. Proin non
+                    </p>
+                    <div class="learn-more">
+                      <a style="color: yellow" href="">Learn more</a>
+                      <img src="./asset/right yellow.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide2" data-aos="flip-left">
+                  <div class="splide21">
+                    <img src="./asset/1event1.png" alt="" />
+                  </div>
+                  <div class="splide2-test">
+                    <p class="splide-p1">may 05, 2023</p>
+                    <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                    <p class="splide-p3">
+                      Duis dui nibh, gravida sit amet dolor eget, <br />
+                      eleifend iaculis sem. Proin non
+                    </p>
+                    <div class="learn-more">
+                      <a style="color: yellow" href="">Learn more</a>
+                      <img src="./asset/right yellow.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide2">
+                  <div class="splide21">
+                    <img src="./asset/1event3.png" alt="" />
+                  </div>
+                  <div class="splide2-test">
+                    <p class="splide-p1">may 05, 2023</p>
+                    <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                    <p class="splide-p3">
+                      Duis dui nibh, gravida sit amet dolor eget, <br />
+                      eleifend iaculis sem. Proin non
+                    </p>
+                    <div class="learn-more">
+                      <a style="color: yellow" href="">Learn more</a>
+                      <img src="./asset/right yellow.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ARTIST -->
+    <section class="artist">
+      <div class="container">
+        <div class="main-title">
+          <div class="main-title-h3">
+            <h3 data-aos="fade-up" data-aos-duration="3000">
+              Featured
+              <span> artists</span>
+            </h3>
+          </div>
+          <div class="span-line">
+            <span></span>
+            <span class="red-span"></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- splide -->
+        <div id="splide3" class="splide" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div
+                  class="splide3"
+                  data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                >
+                  <div class="splide3-img">
+                    <img src="./asset/1man.png" alt="" />
+                  </div>
+                  <div class="splide3-test">
+                    <h5>Jacob Martine</h5>
+                    <p>Lorem ipsum text</p>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div
+                  class="splide3"
+                  data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                >
+                  <div class="splide3-img">
+                    <img src="./asset/2man.png" alt="" />
+                  </div>
+                  <div class="splide3-test">
+                    <h5>David Wing</h5>
+                    <p>Lorem ipsum text</p>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div
+                  class="splide3"
+                  data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                >
+                  <div class="splide3-img">
+                    <img src="./asset/3man.png" alt="" />
+                  </div>
+                  <div class="splide3-test">
+                    <h5>Pavlo Glenn</h5>
+                    <p>Lorem ipsum text</p>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div
+                  class="splide3"
+                  data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                >
+                  <div class="splide3-img">
+                    <img src="./asset/4women'.png" alt="" />
+                  </div>
+                  <div class="splide3-test">
+                    <h5>Alice Mele</h5>
+                    <p>Lorem ipsum text</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our-event -->
+    <section class="our-event">
+      <div class="container">
+        <div class="main-title">
+          <div class="main-title-h3">
+            <h3 data-aos="fade-up" data-aos-duration="3000">
+              Our
+              <span> events</span>
+            </h3>
+          </div>
+          <div class="span-line">
+            <span></span>
+            <span class="red-span"></span>
+            <span></span>
+          </div>
+          <div>
+            <p style="color: white; margin-block: 17px 38px">
+              Lorem Ipsum is simply dummy text
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-33">
+            <div>
+              <div
+                class="splide2"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="splide21">
+                  <img src="./asset/1event.png" alt="" />
+                </div>
+                <div class="splide2-test">
+                  <p class="splide-p1">may 05, 2023</p>
+                  <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                  <p class="splide-p3">
+                    Duis dui nibh, gravida sit amet dolor eget, <br />
+                    eleifend iaculis sem. Proin non
+                  </p>
+                  <div class="learn-more">
+                    <a style="color: yellow" href="">Learn more</a>
+                    <img src="./asset/right yellow.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-33">
+            <div>
+              <div
+                class="splide2"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="splide21">
+                  <img src="./asset/1b.png" alt="" />
+                </div>
+                <div class="splide2-test">
+                  <p class="splide-p1">may 05, 2023</p>
+                  <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                  <p class="splide-p3">
+                    Duis dui nibh, gravida sit amet dolor eget, <br />
+                    eleifend iaculis sem. Proin non
+                  </p>
+                  <div class="learn-more">
+                    <a style="color: yellow" href="">Learn more</a>
+                    <img src="./asset/right yellow.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-33">
+            <div>
+              <div
+                class="splide2"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="splide21">
+                  <img src="./asset/1c.png" alt="" />
+                </div>
+                <div class="splide2-test">
+                  <p class="splide-p1">may 05, 2023</p>
+                  <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                  <p class="splide-p3">
+                    Duis dui nibh, gravida sit amet dolor eget, <br />
+                    eleifend iaculis sem. Proin non
+                  </p>
+                  <div class="learn-more">
+                    <a style="color: yellow" href="">Learn more</a>
+                    <img src="./asset/right yellow.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-33">
+            <div>
+              <div
+                class="splide2"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="splide21">
+                  <img src="./asset/1d.png" alt="" />
+                </div>
+                <div class="splide2-test">
+                  <p class="splide-p1">may 05, 2023</p>
+                  <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                  <p class="splide-p3">
+                    Duis dui nibh, gravida sit amet dolor eget, <br />
+                    eleifend iaculis sem. Proin non
+                  </p>
+                  <div class="learn-more">
+                    <a style="color: yellow" href="">Learn more</a>
+                    <img src="./asset/right yellow.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-33">
+            <div>
+              <div
+                class="splide2"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="splide21">
+                  <img src="./asset/1e.png" alt="" />
+                </div>
+                <div class="splide2-test">
+                  <p class="splide-p1">may 05, 2023</p>
+                  <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                  <p class="splide-p3">
+                    Duis dui nibh, gravida sit amet dolor eget, <br />
+                    eleifend iaculis sem. Proin non
+                  </p>
+                  <div class="learn-more">
+                    <a style="color: yellow" href="">Learn more</a>
+                    <img src="./asset/right yellow.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-33">
+            <div>
+              <div
+                class="splide2"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="splide21">
+                  <img src="./asset/1f.png" alt="" />
+                </div>
+                <div class="splide2-test">
+                  <p class="splide-p1">may 05, 2023</p>
+                  <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                  <p class="splide-p3">
+                    Duis dui nibh, gravida sit amet dolor eget, <br />
+                    eleifend iaculis sem. Proin non
+                  </p>
+                  <div class="learn-more">
+                    <a style="color: yellow" href="">Learn more</a>
+                    <img src="./asset/right yellow.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-33">
+            <div>
+              <div
+                class="splide2"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="splide21">
+                  <img src="./asset/1g.png" alt="" />
+                </div>
+                <div class="splide2-test">
+                  <p class="splide-p1">may 05, 2023</p>
+                  <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                  <p class="splide-p3">
+                    Duis dui nibh, gravida sit amet dolor eget, <br />
+                    eleifend iaculis sem. Proin non
+                  </p>
+                  <div class="learn-more">
+                    <a style="color: yellow" href="">Learn more</a>
+                    <img src="./asset/right yellow.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-33">
+            <div>
+              <div
+                class="splide2"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="splide21">
+                  <img src="./asset/1h.png" alt="" />
+                </div>
+                <div class="splide2-test">
+                  <p class="splide-p1">may 05, 2023</p>
+                  <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                  <p class="splide-p3">
+                    Duis dui nibh, gravida sit amet dolor eget, <br />
+                    eleifend iaculis sem. Proin non
+                  </p>
+                  <div class="learn-more">
+                    <a style="color: yellow" href="">Learn more</a>
+                    <img src="./asset/right yellow.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-33">
+            <div>
+              <div
+                class="splide2"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="splide21">
+                  <img src="./asset/1k.png" alt="" />
+                </div>
+                <div class="splide2-test">
+                  <p class="splide-p1">may 05, 2023</p>
+                  <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                  <p class="splide-p3">
+                    Duis dui nibh, gravida sit amet dolor eget, <br />
+                    eleifend iaculis sem. Proin non
+                  </p>
+                  <div class="learn-more">
+                    <a style="color: yellow" href="">Learn more</a>
+                    <img src="./asset/right yellow.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our-event-slide -->
+    <section class="our-event2">
+      <div class="container">
+        <div class="main-title">
+          <div class="main-title-h3">
+            <h3 data-aos="fade-up" data-aos-duration="3000">
+              Our
+              <span> events</span>
+            </h3>
+          </div>
+          <div class="span-line">
+            <span></span>
+            <span class="red-span"></span>
+            <span></span>
+          </div>
+          <div>
+            <p style="color: white; margin-block: 17px 38px">
+              Lorem Ipsum is simply dummy text
+            </p>
+          </div>
+        </div>
+        <!-- splide4 -->
+        <div id="splide4" class="splide" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="splide2">
+                  <div class="splide21">
+                    <img src="./asset/1a.png" alt="" />
+                  </div>
+                  <div class="splide2-test">
+                    <p class="splide-p1">may 05, 2023</p>
+                    <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                    <p class="splide-p3">
+                      Duis dui nibh, gravida sit amet dolor eget, <br />
+                      eleifend iaculis sem. Proin non
+                    </p>
+                    <div class="learn-more">
+                      <a style="color: yellow" href="">Learn more</a>
+                      <img src="./asset/right yellow.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide2">
+                  <div class="splide21">
+                    <img src="./asset/1b.png" alt="" />
+                  </div>
+                  <div class="splide2-test">
+                    <p class="splide-p1">may 05, 2023</p>
+                    <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                    <p class="splide-p3">
+                      Duis dui nibh, gravida sit amet dolor eget, <br />
+                      eleifend iaculis sem. Proin non
+                    </p>
+                    <div class="learn-more">
+                      <a style="color: yellow" href="">Learn more</a>
+                      <img src="./asset/right yellow.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide2">
+                  <div class="splide21">
+                    <img src="./asset/1c.png" alt="" />
+                  </div>
+                  <div class="splide2-test">
+                    <p class="splide-p1">may 05, 2023</p>
+                    <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                    <p class="splide-p3">
+                      Duis dui nibh, gravida sit amet dolor eget, <br />
+                      eleifend iaculis sem. Proin non
+                    </p>
+                    <div class="learn-more">
+                      <a style="color: yellow" href="">Learn more</a>
+                      <img src="./asset/right yellow.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide2">
+                  <div class="splide21">
+                    <img src="./asset/1d.png" alt="" />
+                  </div>
+                  <div class="splide2-test">
+                    <p class="splide-p1">may 05, 2023</p>
+                    <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                    <p class="splide-p3">
+                      Duis dui nibh, gravida sit amet dolor eget, <br />
+                      eleifend iaculis sem. Proin non
+                    </p>
+                    <div class="learn-more">
+                      <a style="color: yellow" href="">Learn more</a>
+                      <img src="./asset/right yellow.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide2">
+                  <div class="splide21">
+                    <img src="./asset/1e.png" alt="" />
+                  </div>
+                  <div class="splide2-test">
+                    <p class="splide-p1">may 05, 2023</p>
+                    <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                    <p class="splide-p3">
+                      Duis dui nibh, gravida sit amet dolor eget, <br />
+                      eleifend iaculis sem. Proin non
+                    </p>
+                    <div class="learn-more">
+                      <a style="color: yellow" href="">Learn more</a>
+                      <img src="./asset/right yellow.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide2">
+                  <div class="splide21">
+                    <img src="./asset/1f.png" alt="" />
+                  </div>
+                  <div class="splide2-test">
+                    <p class="splide-p1">may 05, 2023</p>
+                    <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                    <p class="splide-p3">
+                      Duis dui nibh, gravida sit amet dolor eget, <br />
+                      eleifend iaculis sem. Proin non
+                    </p>
+                    <div class="learn-more">
+                      <a style="color: yellow" href="">Learn more</a>
+                      <img src="./asset/right yellow.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide2">
+                  <div class="splide21">
+                    <img src="./asset/1g.png" alt="" />
+                  </div>
+                  <div class="splide2-test">
+                    <p class="splide-p1">may 05, 2023</p>
+                    <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                    <p class="splide-p3">
+                      Duis dui nibh, gravida sit amet dolor eget, <br />
+                      eleifend iaculis sem. Proin non
+                    </p>
+                    <div class="learn-more">
+                      <a style="color: yellow" href="">Learn more</a>
+                      <img src="./asset/right yellow.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide2">
+                  <div class="splide21">
+                    <img src="./asset/1h.png" alt="" />
+                  </div>
+                  <div class="splide2-test">
+                    <p class="splide-p1">may 05, 2023</p>
+                    <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                    <p class="splide-p3">
+                      Duis dui nibh, gravida sit amet dolor eget, <br />
+                      eleifend iaculis sem. Proin non
+                    </p>
+                    <div class="learn-more">
+                      <a style="color: yellow" href="">Learn more</a>
+                      <img src="./asset/right yellow.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide2">
+                  <div class="splide21">
+                    <img src="./asset/1k.png" alt="" />
+                  </div>
+                  <div class="splide2-test">
+                    <p class="splide-p1">may 05, 2023</p>
+                    <p class="splide-p2">Lorem ipsum dolor sit amet lorem</p>
+                    <p class="splide-p3">
+                      Duis dui nibh, gravida sit amet dolor eget, <br />
+                      eleifend iaculis sem. Proin non
+                    </p>
+                    <div class="learn-more">
+                      <a style="color: yellow" href="">Learn more</a>
+                      <img src="./asset/right yellow.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==>Mail-SECTION<== -->
+    <section class="mail-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-50">
+            <div class="mail-test">
+              <div class="main-title main-title1">
+                <div class="main-title-h3 mail-test">
+                  <h3 data-aos="fade-up" data-aos-duration="3000">
+                    Simple fees. <br />
+                    <span> No contracts.</span>
+                  </h3>
+                </div>
+                <div class="span-line mail-test">
+                  <span></span>
+                  <span class="red-span"></span>
+                  <span></span>
+                </div>
+              </div>
+              <p
+                style="
+                  color: white;
+                  margin-top: 17px;
+                  margin-bottom: 21px;
+                  font-size: 18px;
+                "
+              >
+                No contracts, no monthly fees, no worries.
+              </p>
+              <div class="email-container">
+                <input type="email" placeholder="Enter your email" />
+                <button>Join</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-50">
+            <div
+              class="mail-img"
+              data-aos="flip-right"
+              data-aos-duration="3000"
+            >
+              <img src="./asset/mail-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==FOOTER-SECTION -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-25 footer-ull"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div
+              class="footer-test"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              <img src="./asset/Logo.png" alt="" />
+              <p style="margin-top: 20px">
+                Lorem Ipsum is simply dumm yww text of <br />
+                the printing and tyetting industry. Lorem <br />
+                Ipsum has been d tyetting.
+              </p>
+              <h4 class="footer-h4">Follow Us</h4>
+              <div class="social-icons">
+                <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-25 footer-ull"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <h4 class="footer-h4">Navigate</h4>
+            <ul data-aos="fade-up" data-aos-duration="3000">
+              <li><a href=".//events.html">Event</a></li>
+              <li><a href=".//resources-about.html">Resources</a></li>
+              <li><a href=".//blog.html">Blog</a></li>
+              <li><a href=".//faq.html">Faq</a></li>
+              <li><a href=".//review.html">Review</a></li>
+              <li><a href=".//contact.html">Contact us</a></li>
+            </ul>
+          </div>
+
+          <div
+            class="col-25 footer-ull"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <h4 class="footer-h4">Legal</h4>
+            <ul data-aos="fade-up" data-aos-duration="3000">
+              <li><a href=".//resources-help-video.html">Help</a></li>
+              <li><a href="#">Terms & services</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div
+            class="col-25 footer-ull"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <h4 class="footer-h4">Made For You</h4>
+            <ul data-aos="fade-up" data-aos-duration="3000">
+              <li><a href="#">Alternative to eventbrite</a></li>
+              <li><a href="#">Online event ticketing</a></li>
+              <li><a href="#">Event registration software</a></li>
+              <li><a href="#">Sell tickets for seated events</a></li>
+              <li><a href="#">Webinar ticketing</a></li>
+              <li><a href="#">Venue ticketing</a></li>
+              <li><a href="#">WordPress event ticketing</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <br />
+    <br />
+
+    <hr class="hrwhite" />
+    <br />
+    <div class="copy">
+      <p>Copyright © 2024 - Redeemed Events. All rights reserved.</p>
+    </div>
+    <br />
+    <!-- ::splide:; -->
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+    <!-- __:AOS-SCRIPT:__ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- __:JS-SCRIPT:__ -->
+    <script src="./index.js"></script>
+  </body>
+</html>
