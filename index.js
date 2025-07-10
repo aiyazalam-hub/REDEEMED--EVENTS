@@ -153,3 +153,14 @@ addButton.addEventListener("click", function () {
 removeButton.addEventListener("click", function () {
   splide.remove(splide.length - 1);
 });
+
+// splide5
+
+
+
+var splide = new Splide( '#splide5', {
+  perPage: 3,
+  rewind : true,
+} );
+
+splide.mount();
