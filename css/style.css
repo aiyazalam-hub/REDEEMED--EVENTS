@@ -382,7 +382,7 @@ ul a:hover {
 }
 .splide-card {
   max-width: 360px;
-  height: 461px;
+  min-height: 461px;
   border: 1px solid #c8c8c8;
   border-radius: 8px;
   color: white;
@@ -967,6 +967,7 @@ footer {
 .redem-img > img {
   max-width: 100%;
   height: 100%;
+  margin-top: 40px;
   object-fit: contain;
 }
 .abt-redem-section {
@@ -1082,6 +1083,9 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.c-form {
+  text-align: center;
 }
 /*6 >===-contact.HTML-END===< */
 
@@ -1404,6 +1408,12 @@ input[type="range"] {
 }
 /* :::--992--::: */
 @media screen and (max-width: 992px) {
+  .main-touch {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+  }
   .col-39 {
     width: 100%;
     margin-bottom: 35px;
@@ -1502,6 +1512,13 @@ input[type="range"] {
 
 /* :::--576--::: */
 @media screen and (max-width: 576px) {
+  .c-form {
+    text-align: center;
+    margin-left: 29px;
+  }
+  .search-input {
+    font-size: 12px;
+  }
   /*1 >===INDEX.HTML-START===< */
   .hero-test > h1 {
     font-size: 42px;

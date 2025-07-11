@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home-Page</title>
+    <title>Event-detail</title>
     <!-- __:CSS-LINK:__ -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- :::FONT-AWSOME::: -->
@@ -14,13 +14,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  
+   
     <!-- __:AOS-LINK:__ -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <!-- Link Swiper's CSS -->
+    <!-- splider -->
     <link
+      href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
   </head>
   <body>
@@ -120,133 +122,11 @@
       </div>
     </div>
     <!-- Hero-section -->
-    <section class="faq-sec">
-      <div class="container">
-        <div class="main-title faq-t">
-          <div class="rev-h3">
-            <h3 data-aos="fade-up" data-aos-duration="3000">
-              Frequently asked
-              <span>questions</span>
-            </h3>
-          </div>
-          <div class="span-line">
-            <span></span>
-            <span class="red-span"></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="about-p1" data-aos="fade-up" data-aos-duration="3000">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum <br />
-            has been the industry's standard dummy text ever since the 1500s, 
-          </p>
-          <div class="tir-btn faq-btn">
-            <div>
-              <div class="nav-btn">
-                <a href="#">Create your event</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="accordion">
-          <div class="accordion-item" data-aos="flip-up">
-            <div class="accordion-header">
-              <span>1.</span> Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit?
-            </div>
-            <div class="accordion-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam...
-            </div>
-          </div>
+   
+            
 
-          <div class="accordion-item" data-aos="flip-up">
-            <div class="accordion-header">
-              <span>2.</span> Aenean ornare sem id velit facilisis auctor?
-            </div>
-            <div class="accordion-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam...
-            </div>
-          </div>
-
-          <div class="accordion-item" data-aos="flip-up">
-            <div class="accordion-header">
-              <span>3.</span> Aenean ornare sem id velit facilisis auctor?
-            </div>
-            <div class="accordion-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam...
-            </div>
-          </div>
-
-          <div class="accordion-item" data-aos="flip-up">
-            <div class="accordion-header">
-              <span>4.</span> Nulla semper magna at pharetra tempus?
-            </div>
-            <div class="accordion-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam...
-            </div>
-          </div>
-
-          <div class="accordion-item" data-aos="flip-up">
-            <div class="accordion-header">
-              <span>5.</span> Duis sagittis enim ac neque luctus, sed varius
-              neque accumsan?
-            </div>
-            <div class="accordion-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam...
-            </div>
-          </div>
-
-          <div class="accordion-item" data-aos="flip-up">
-            <div class="accordion-header">
-              <span>6.</span> Duis quis massa vel diam semper accumsan?
-            </div>
-            <div class="accordion-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam...
-            </div>
-          </div>
-
-          <div class="accordion-item" data-aos="flip-up">
-            <div class="accordion-header">
-              <span>7.</span> Aliquam tempor lacus sed nisi egestas, sed
-              tristique nisl molestie?
-            </div>
-            <div class="accordion-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam...
-            </div>
-          </div>
-
-          <div class="accordion-item" data-aos="flip-up">
-            <div class="accordion-header">
-              <span>8.</span> Aenean ornare sem id velit facilisis auctor?
-            </div>
-            <div class="accordion-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam...
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   
+  
 
     <!-- ==>Mail-SECTION<== -->
     <section class="mail-section">
@@ -383,40 +263,10 @@
       <p>Copyright © 2024 - Redeemed Events. All rights reserved.</p>
     </div>
     <br />
-    <!-- FAQ -->
-    <script>
-      const items = document.querySelectorAll(".accordion-item");
-
-      items.forEach((item) => {
-        item
-          .querySelector(".accordion-header")
-          .addEventListener("click", () => {
-            items.forEach((i) => {
-              if (i !== item) i.classList.remove("active");
-            });
-            item.classList.toggle("active");
-          });
-      });
-    </script>
-    <!-- FAQ END -->
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper("#swiper1", {
-        pagination: {
-          el: ".swiper-pagination",
-
-          type: "fraction",
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
-
+    <!-- ::splide:; -->
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
     <!-- __:AOS-SCRIPT:__ -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
