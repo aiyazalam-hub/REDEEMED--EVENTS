@@ -1647,6 +1647,15 @@ input[type="range"] {
 
 /* :::--768--::: */
 @media screen and (max-width: 768px) {
+  .blog-arrow {
+    margin-top: 29px;
+    margin-bottom: 39px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
   .ok {
     gap: 10px;
     justify-content: center;
