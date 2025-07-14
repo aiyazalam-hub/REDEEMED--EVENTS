@@ -1467,6 +1467,16 @@ input[type="range"] {
   width: 50%;
   padding: 0 15px;
 }
+.pos-footer{
+  background-color: black;
+  color: white;
+}
+.pos-ul>li>a{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 15px;
+}
+
 /* BOOTSTRAP-END */
 /* ====>MEDIA QUERY<==== */
 @media screen and (max-width: 1130px) {
@@ -1563,11 +1573,17 @@ input[type="range"] {
   .blog-sec {
     display: none;
   }
+ 
   /*7 >===BLOG-VIDEO.HTML-END===< */
 }
 
 /* :::--768--::: */
 @media screen and (max-width: 768px) {
+ 
+  .ok{
+    gap: 10px;
+    justify-content: center;
+  }
   .pos-maill>h2 {
     margin-top: 29px;
     font-size: 30px;
@@ -1647,6 +1663,9 @@ p {
 
 /* :::--576--::: */
 @media screen and (max-width: 576px) {
+   .shhare{
+    justify-content: center;
+  }
   .c-form {
     text-align: center;
     margin-left: 29px;
