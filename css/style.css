@@ -1465,7 +1465,7 @@ input[type="range"] {
 
 /* <------------------------------------------------------------> */
 /* BOOTSTRAP-START */
-.g-col-4 > img {
+/* .g-col-4 > img {
   max-width: 100%;
   height: 100%;
   object-fit: contain;
@@ -1543,7 +1543,7 @@ input[type="range"] {
   text-decoration: none;
   color: white;
   margin-bottom: 15px;
-}
+} */
 
 /* BOOTSTRAP-END */
 /* ====>MEDIA QUERY<==== */
