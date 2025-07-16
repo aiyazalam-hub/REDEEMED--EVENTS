@@ -64,6 +64,9 @@ function updateTimer() {
 updateTimer();
 
 // count end
+//
+
+//
 
 // splide1
 var splide = new Splide("#splide1", {
@@ -156,11 +159,9 @@ removeButton.addEventListener("click", function () {
 
 // splide5
 
-
-
-var splide = new Splide( '#splide5', {
+var splide = new Splide("#splide5", {
   perPage: 3,
-  rewind : true,
-} );
+  rewind: true,
+});
 
 splide.mount();

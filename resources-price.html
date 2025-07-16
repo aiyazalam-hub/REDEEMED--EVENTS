@@ -14,7 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-   
+
     <!-- __:AOS-LINK:__ -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Link Swiper's CSS -->
@@ -35,7 +35,7 @@
         <nav class="nav-bar">
           <div class="nav-wrpr">
             <div data-aos="zoom-in" data-aos-duration="2000" class="nav-logo">
-              <a href="">
+              <a href="./index.html">
                 <img src="./asset/Logo.png" alt="" />
               </a>
             </div>
@@ -47,23 +47,21 @@
             <div class="nav-right">
               <ul>
                 <li>
-                  <a href=".//events.html" class="links active cmn-hover"
+                  <a href="./events.html" class="links active cmn-hover"
                     >Event</a
                   >
                 </li>
                 <div class="dropdown">
                   <div class="dropdown-toggle">Resources</div>
                   <div class="dropdown-menu">
-                    <a href=".//resources-about.html">About us</a>
-                    <a href=".//resources-price.html">Fees</a>
-                    <a href=".//resources-help-video.html">Help videos</a>
+                    <a href="./resources-about.html">About us</a>
+                    <a href="./resources-price.html">Fees</a>
+                    <a href="./resources-help-video.html">Help videos</a>
                   </div>
                 </div>
                 <div class="dropdown">
                   <div class="dropdown-toggle">Log In</div>
-                  <div class="dropdown-menu">
-                    <a href=".//contact.html">Contact</a>
-                  </div>
+                  <div class="dropdown-menu"></div>
                 </div>
                 <div class="icon-s">
                   <div><img src="./asset/search.png" alt="" /></div>
@@ -85,29 +83,28 @@
       <button class="clsbtn">&times;</button>
       <div class="phn-wrpr">
         <ul>
-          <li><a href=".//index.html" class="cmn-hover">Home</a></li>
-          <li><a href=".//events.html" class="cmn-hover">Event</a></li>
+          <li><a href="./index.html" class="cmn-hover">Home</a></li>
+          <li><a href="./events.html" class="cmn-hover">Event</a></li>
+          <li><a href="./contact.html" class="cmn-hover">Contact</a></li>
           <br />
           <div class="dropdown">
             <div class="dropdown-toggle">Resources</div>
             <div class="dropdown-menu">
-              <a href=".//resources-about.html">About us</a>
-              <a href=".//resources-price.html">Fees</a>
-              <a href=".//resources-help-video.html">Help videos</a>
+              <a href="./resources-about.html">About us</a>
+              <a href="./resources-price.html">Fees</a>
+              <a href="./resources-help-video.html">Help videos</a>
             </div>
           </div>
           <br />
           <br />
           <div class="dropdown">
             <div class="dropdown-toggle">Log In</div>
-            <div class="dropdown-menu">
-              <a href=".//contact.html">Contact</a>
-            </div>
+            <div class="dropdown-menu"></div>
           </div>
           <br />
-          <li><a href=".//blog.html" class="cmn-hover">Blog</a></li>
-          <li><a href=".//review.html" class="cmn-hover">Review</a></li>
-          <li><a href=".//faq.html" class="cmn-hover">Faq</a></li>
+          <li><a href="./blog.html" class="cmn-hover">Blog</a></li>
+          <li><a href="./review.html" class="cmn-hover">Review</a></li>
+          <li><a href="./faq.html" class="cmn-hover">Faq</a></li>
         </ul>
         <hr style="color: white; margin-inline: 50px 50px" />
         <div>
@@ -314,27 +311,50 @@
                 </div>
                 <div>
                   <p style="color: white">Cost per ticket</p>
-                  <p style="color: white; font-size: 46px">¢ 0.48</p>
+                  <p style="color: white; font-size: 46px">
+                    <span style="font-size: 15px">¢ </span>0.48
+                  </p>
                 </div>
                 <div>
                   <p style="color: white">Total cost</p>
-                  <p style="color: white; font-size: 46px">¢ 168</p>
+                  <p style="color: white; font-size: 46px">
+                    <span style="font-size: 15px">¢ </span>168
+                  </p>
                   <p style="color: brown">Save ¢12 vs PAYG</p>
                 </div>
               </div>
-              <div class="slider-container">
-                <input type="range" min="0" max="100" value="50" id="slider" />
+              <!-- <div class="slider-container">
+                <input  type="range" min="0" max="100" value="50" id="slider" />
+              </div> -->
+              <div class="range-container">
+                <input
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  class="slider"
+                />
               </div>
             </div>
 
             <div class="col-50">
               <div class="range-btn">
-                <p class="range-p1">
+                <p
+                  style="color: white; text-align: center; margin-bottom: 25px"
+                  class="range-p1"
+                >
                   Auto renew monthly, when running <br />
                   low or purchase as a one-off.
                 </p>
                 <hr style="margin-inline: 60px 60px" />
-                <p class="range-p2">
+                <p
+                  style="
+                    color: #ffba19;
+                    text-align: center;
+                    margin-block: 25px 25px;
+                  "
+                  class="range-p2"
+                >
                   No time limit on when credits <br />
                   need to be used by.
                 </p>
@@ -477,12 +497,12 @@
           >
             <h4 class="footer-h4">Navigate</h4>
             <ul data-aos="fade-up" data-aos-duration="3000">
-              <li><a href=".//events.html">Event</a></li>
-              <li><a href=".//resources-about.html">Resources</a></li>
-              <li><a href=".//blog.html">Blog</a></li>
-              <li><a href=".//faq.html">Faq</a></li>
-              <li><a href=".//review.html">Review</a></li>
-              <li><a href=".//contact.html">Contact us</a></li>
+              <li><a href="./events.html">Event</a></li>
+              <li><a href="./resources-about.html">Resources</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./faq.html">Faq</a></li>
+              <li><a href="./review.html">Review</a></li>
+              <li><a href="./contact.html">Contact us</a></li>
             </ul>
           </div>
 
@@ -493,7 +513,7 @@
           >
             <h4 class="footer-h4">Legal</h4>
             <ul data-aos="fade-up" data-aos-duration="3000">
-              <li><a href=".//resources-help-video.html">Help</a></li>
+              <li><a href="./resources-help-video.html">Help</a></li>
               <li><a href="#">Terms & services</a></li>
               <li><a href="#">Privacy policy</a></li>
             </ul>
@@ -534,7 +554,7 @@
     <script>
       AOS.init();
     </script>
-   
+
     <!-- __:JS-SCRIPT:__ -->
     <script src="./index.js"></script>
   </body>

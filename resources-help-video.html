@@ -14,7 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-   
+
     <!-- __:AOS-LINK:__ -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Link Swiper's CSS -->
@@ -35,7 +35,7 @@
         <nav class="nav-bar">
           <div class="nav-wrpr">
             <div data-aos="zoom-in" data-aos-duration="2000" class="nav-logo">
-              <a href="">
+              <a href="./index.html">
                 <img src="./asset/Logo.png" alt="" />
               </a>
             </div>
@@ -47,23 +47,21 @@
             <div class="nav-right">
               <ul>
                 <li>
-                  <a href=".//events.html" class="links active cmn-hover"
+                  <a href="./events.html" class="links active cmn-hover"
                     >Event</a
                   >
                 </li>
                 <div class="dropdown">
                   <div class="dropdown-toggle">Resources</div>
                   <div class="dropdown-menu">
-                    <a href=".//resources-about.html">About us</a>
-                    <a href=".//resources-price.html">Fees</a>
-                    <a href=".//resources-help-video.html">Help videos</a>
+                    <a href="./resources-about.html">About us</a>
+                    <a href="./resources-price.html">Fees</a>
+                    <a href="./resources-help-video.html">Help videos</a>
                   </div>
                 </div>
                 <div class="dropdown">
                   <div class="dropdown-toggle">Log In</div>
-                  <div class="dropdown-menu">
-                    <a href=".//contact.html">Contact</a>
-                  </div>
+                  <div class="dropdown-menu"></div>
                 </div>
                 <div class="icon-s">
                   <div><img src="./asset/search.png" alt="" /></div>
@@ -85,29 +83,28 @@
       <button class="clsbtn">&times;</button>
       <div class="phn-wrpr">
         <ul>
-          <li><a href=".//index.html" class="cmn-hover">Home</a></li>
-          <li><a href=".//events.html" class="cmn-hover">Event</a></li>
+          <li><a href="./index.html" class="cmn-hover">Home</a></li>
+          <li><a href="./events.html" class="cmn-hover">Event</a></li>
+          <li><a href="./contact.html" class="cmn-hover">Contact</a></li>
           <br />
           <div class="dropdown">
             <div class="dropdown-toggle">Resources</div>
             <div class="dropdown-menu">
-              <a href=".//resources-about.html">About us</a>
-              <a href=".//resources-price.html">Fees</a>
-              <a href=".//resources-help-video.html">Help videos</a>
+              <a href="./resources-about.html">About us</a>
+              <a href="./resources-price.html">Fees</a>
+              <a href="./resources-help-video.html">Help videos</a>
             </div>
           </div>
           <br />
           <br />
           <div class="dropdown">
             <div class="dropdown-toggle">Log In</div>
-            <div class="dropdown-menu">
-              <a href=".//contact.html">Contact</a>
-            </div>
+            <div class="dropdown-menu"></div>
           </div>
           <br />
-          <li><a href=".//blog.html" class="cmn-hover">Blog</a></li>
-          <li><a href=".//review.html" class="cmn-hover">Review</a></li>
-          <li><a href=".//faq.html" class="cmn-hover">Faq</a></li>
+          <li><a href="./blog.html" class="cmn-hover">Blog</a></li>
+          <li><a href="./review.html" class="cmn-hover">Review</a></li>
+          <li><a href="./faq.html" class="cmn-hover">Faq</a></li>
         </ul>
         <hr style="color: white; margin-inline: 50px 50px" />
         <div>
@@ -122,9 +119,18 @@
     <!-- Hero-section -->
     <section class="video-home">
       <div class="container">
-        <div class="video-container">
+        <div class="gallery">
+          <a href="#img1" data-aos="fade-right">
+            <img src="./asset/helpvideohelp.png" alt="Image" />
+            <div class="tik"><img src="./asset/image.png" alt="" /></div>
+          </a>
+        </div>
+
+        <div id="img1" class="lightbox">
+          <a href="#" class="close">&times;</a>
           <iframe
             width="1141"
+            height="400"
             src="https://www.youtube.com/embed/kO_2Cv6gmqM?si=rbkprXp3CnUds8BJ"
             title="YouTube video player"
             frameborder="0"
@@ -133,6 +139,7 @@
             allowfullscreen
           ></iframe>
         </div>
+       
         <div class="mail-test">
           <div class="main-title main-title1">
             <div class="main-title-h3 mail-test">
@@ -469,7 +476,7 @@
     <script>
       AOS.init();
     </script>
-   
+
     <!-- __:JS-SCRIPT:__ -->
     <script src="./index.js"></script>
   </body>
