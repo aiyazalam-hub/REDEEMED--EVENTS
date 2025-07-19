@@ -531,7 +531,7 @@ ul a:hover {
 /* ...3-Featured-event-section-end... */
 
 /* ...4-Fees-contracts-section...... */
-.icon-ss>div>img{
+.icon-ss > div > img {
   display: none;
   max-width: 100%;
   height: 100%;
@@ -737,7 +737,7 @@ footer {
 
 /* ...Home-section...... */
 .event-page {
-  padding-top: 115px;
+ 
   margin-top: 50px;
   background-color: #141414;
   padding-bottom: 80px;
@@ -1717,9 +1717,9 @@ input[type="range"] {
 }
 /* :::--992--::: */
 @media screen and (max-width: 992px) {
- .icon-ss>div>img{
-  display: block;
-}
+  .icon-ss > div > img {
+    display: block;
+  }
    {
     color: white;
     font-size: 14px;
@@ -1795,6 +1795,12 @@ input[type="range"] {
 
 /* :::--768--::: */
 @media screen and (max-width: 768px) {
+  .tir-img > img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: none;
+  }
   .footer-test > p {
     color: white;
     text-align: start;
@@ -1893,15 +1899,18 @@ input[type="range"] {
 
 /* :::--576--::: */
 @media screen and (max-width: 576px) {
-  .icon-ss>div>img{
+      .email-container button {
+        padding: 0 10px;
+        font-size: 20px;
+    }
+ 
+  .icon-ss > div > img {
     max-width: 70%;
-    
-
   }
-  .icon-ss{
+  .icon-ss {
     gap: 10px;
   }
-  .nav-logo>a>img{
+  .nav-logo > a > img {
     max-width: 70%;
   }
   .main-chg-red {
@@ -1976,10 +1985,7 @@ input[type="range"] {
     padding: 10px 10px;
     font-size: 10px;
   }
-  .email-container button {
-    padding: 0 1px;
-    font-size: 14px;
-  }
+  
   .event-page {
     margin-top: 50px;
     background-color: #141414;
