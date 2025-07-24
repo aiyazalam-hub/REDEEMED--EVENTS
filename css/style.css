@@ -634,6 +634,67 @@ input[type="submit"]:hover {
   text-align: center;
 }
 /* ...5-Mail-section-end... */
+/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+
+  .contact-section {
+  background: #1f1f1f;
+  width: 400px;
+  padding: 30px;
+  border-left: 4px solid #f8b500;
+  border-bottom: 4px solid #f8b500;
+  color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  margin: 40px;
+}
+
+.contact-section h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact-section h2 span {
+  font-weight: normal;
+}
+
+.contact-section h2 strong {
+  color: #f8b500;
+  font-weight: bold;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #333;
+  background: #2a2a2a;
+  color: white;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.contact-section input::placeholder,
+.contact-section textarea::placeholder {
+  color: #aaa;
+}
+
+.contact-section button {
+  background: #c0392b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: background 0.3s ease;
+}
+
+.contact-section button:hover {
+  background: #a93226;
+}
+/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
 
 /* ...6-Footer-section...... */
 footer {
@@ -2013,7 +2074,7 @@ input[type="range"] {
 }
       form {
         width: 300px;
-        height: 48px;
+        height: 42px;
         display: flex
 ;
         border-radius: 10px;
