@@ -658,8 +658,51 @@ footer {
   text-decoration: underline;
   text-shadow: #fbbf24;
 }
-/* ...6-Footer-section-end... */
+/* mail */
 
+.email-form {
+ margin: 0 auto;
+  width: 332px;
+  display: flex;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.email-form input[type="email"] {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  outline: none;
+  background-color: #121212;
+  color: #fff;
+  font-size: 14px;
+}
+
+.email-form input::placeholder {
+  color: #aaa;
+}
+
+.email-form button {
+  background-color: #b03a38;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.email-form button:hover {
+  background-color: #922c2a;
+}
+/* end mail */
+/* ...6-Footer-section-end... */
+.fainal {
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+}
 /* FAQ-PAGE STAR*/
 .faq-t {
   margin-top: 25px;
@@ -734,12 +777,11 @@ footer {
 /* <------------------------------------------------------------> */
 
 /*2 >===EVENT.HTML-START===< */
-.ffee{
+.ffee {
   text-align: center;
 }
 /* ...Home-section...... */
 .event-page {
- 
   margin-top: 50px;
   background-color: #141414;
   padding-bottom: 80px;
@@ -1797,6 +1839,15 @@ input[type="range"] {
 
 /* :::--768--::: */
 @media screen and (max-width: 768px) {
+  input[type="email"] {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: #111;
+    color: #ccc;
+    font-size: 16px;
+    width: 690px;
+  }
   .tir-img > img {
     max-width: 100%;
     height: 100%;
@@ -1901,11 +1952,29 @@ input[type="range"] {
 
 /* :::--576--::: */
 @media screen and (max-width: 576px) {
-      .email-container button {
-        padding: 0 10px;
-        font-size: 20px;
-    }
- 
+  .email-form {
+    margin: 0 auto;
+    width: 300px;
+    display: flex
+;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+  button {
+    background-color: #a94442;
+    color: white;
+    border: none;
+    padding: 0 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  .email-container button {
+    padding: 0 10px;
+    font-size: 20px;
+  }
+
   .icon-ss > div > img {
     max-width: 70%;
   }
@@ -1987,7 +2056,7 @@ input[type="range"] {
     padding: 10px 10px;
     font-size: 10px;
   }
-  
+
   .event-page {
     margin-top: 50px;
     background-color: #141414;
